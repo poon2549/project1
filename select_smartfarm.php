@@ -31,8 +31,8 @@
            <td> <?php echo $row["temp"]; ?></td>
            <td> <?php echo $row["humi"]; ?></td>
            <td> <?php echo $row["dmy"]; ?></td>
-           <td> <?php echo "<a href='edit_smartfram.php?id=$row[id]'> แก้ไข</a>" ?></td>
-           <td> <?php echo"<a href='delete_smartfram.php?id=$row[id]'> ลบ </a>"; ?></td>
+           <td> <?php echo "<a href='edit_smartfarm.php?id=$row[id]'> แก้ไข</a>" ?></td>
+           <td> <?php echo"<a href='delete_smartfarm.php?id=$row[id]'> ลบ </a>"; ?></td>
         </tr>      
    <?php
        }
